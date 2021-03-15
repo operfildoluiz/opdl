@@ -1,0 +1,358 @@
+{
+  "settings": {
+    "name": "Site-02-09_0126",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "financem4",
+      "title": "FinanceM4",
+      "styling": {
+        "primaryColor": "#0077ff",
+        "secondaryColor": "#0cb27a",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#808080",
+        "dangerColor": "#B1A374",
+        "mainFont": "DM Sans",
+        "display1Font": "Nunito Sans",
+        "display1Size": 4.6,
+        "display2Font": "Nunito Sans",
+        "display2Size": 3,
+        "display5Font": "Nunito Sans",
+        "display5Size": 2.2,
+        "display7Font": "Nunito Sans",
+        "display7Size": 1.4,
+        "display4Font": "Nunito Sans",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#0a453c",
+        "#444444",
+        "#0cb27a",
+        "#fff1b4"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.29",
+    "siteFonts": [
+      {
+        "css": "'DM Sans', sans-serif",
+        "name": "DM Sans",
+        "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
+      },
+      {
+        "css": "'Nunito Sans', sans-serif",
+        "name": "Nunito Sans",
+        "url": "https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 22,
+    "versionPublish": "5.0.29",
+    "screenshot": "screenshot.png",
+    "chatbutton": {},
+    "favicon": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": true,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "operfildoluiz | eng de sw | ferramentas e hacks",
+        "meta_descr": "eu sou engenheiro de software, pai, podcaster, metido a startupeiro e, pelo menos no que sei, sou um cara gente boa",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/t02cw8ph8-u01f79251ew-1fb9bfa5a0a7-513-512x512.jpg"
+      },
+      "components": [
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 20px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(90deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-overlay": {
+              "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
+            },
+            ".mbr-section-btn": {
+              "margin-left": "-0.8rem"
+            },
+            ".text-content": {
+              "padding-right": "1.5rem",
+              "& when (@reverseContent)": {
+                "padding-right": "0",
+                "padding-left": "1.5rem"
+              }
+            },
+            ".main-row": {
+              "& when (@reverseContent)": {
+                "-webkit-flex-direction": "row-reverse",
+                "-ms-flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-text,.mbr-section-btn": {
+              "color": "#767676"
+            },
+            ".mbr-figure img": {
+              "-webkit-box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)",
+              "box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)",
+              "border-radius": ".25rem",
+              "max-width": "256px",
+              "max-height": "256px"
+            },
+            ".counter-container": {
+              "padding": "1rem 0",
+              "position": "relative",
+              "ul": {
+                "margin-bottom": "0",
+                "padding-left": "1.5rem",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "font-family": "MobiriseIcons !important",
+                      "content": "'\\e966'",
+                      "position": "absolute",
+                      "left": "0px",
+                      "padding-top": "2px",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "4px 0px",
+                      "line-height": "10px",
+                      "transition": "all .2s",
+                      "width": "16px",
+                      "height": "16px",
+                      "font-size": "16px !important",
+                      "font-weight": "500",
+                      "background": "none",
+                      "color": "@counterColor"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".main-row": {
+                "margin": "0"
+              },
+              ".mbr-section-title,.mbr-text,.list,.mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              ".text-content": {
+                "padding": "0"
+              }
+            }
+          },
+          "_name": "extHeader14",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" plugins=\"mobirise-icons\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show List\" name=\"showList\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked condition=\"showList\">\n        <input type=\"color\" title=\"Counter Bg Color\" name=\"counterColor\" value=\"#188ef4\" condition=\"stylizedCounters&&showList\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#b2ccd2\" condition=\"gradientBg&& bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" condition=\"overlay&&bg.type !== 'color'\" value=\"#b2ccd2\">\n        \n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main-row\">\n            <div class=\"text-content mb-4 col-lg-8\">\n                <h2 class=\"mb-4 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">oi, eu sou o <b>luiz</b></h2>\n                <h3 class=\"mbr-fonts-style mbr-text align-left mbr-light\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\">eu sou engenheiro de software, pai, podcaster, metido a startupeiro e, pelo menos no que sabe, sou um cara gente boa</h3>\n                <div class=\"list counter-container col-12  mbr-fonts-style mbr-black\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article mbr-if=\"showList\">\n                    <ul>\n                        <li>Minimalistic, easy-to-use interface</li><li>Mobile-friendliness, latest website blocks and techniques</li><li>Free for both commercial and non-profit projects</li>\n                    </ul>\n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://twitter.com/operfildoluiz\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-twitter-1 mbr-iconfont mbr-iconfont-btn\"></span>@operfildoluiz</a> <a class=\"btn btn-md btn-black-outline\" href=\"https://instagram.com/operfildoluiz\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-instagram mbr-iconfont mbr-iconfont-btn\"></span>@operfildoluiz</a> <a class=\"btn btn-md btn-black-outline\" href=\"https://linkedin.com/in/operfildoluiz\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-linkedin mbr-iconfont mbr-iconfont-btn\"></span>@operfildoluiz</a> <a class=\"btn btn-md btn-black-outline\" href=\"https://tiktok.com/@operfildoluiz\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-tiktok mbr-iconfont mbr-iconfont-btn\"></span>@operfildoluiz</a></div>\n            </div>\n     \n            <div class=\"mbr-figure col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/t02cw8ph8-u01f79251ew-1fb9bfa5a0a7-512-512x512.jpg\" alt>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "srQm1m5kWj",
+          "_anchor": "extHeader14-i",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".znt-title": {
+              "color": "@titleColor"
+            },
+            "H1": {
+              "text-align": "left",
+              "color": "#0a453c"
+            },
+            "H2": {
+              "color": "#555555"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Title Color\" name=\"titleColor\" value=\"#0a453c\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"hasSubtitle\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <header class=\"container\">\n        <h1 class=\"znt-title mbr-semibold pb-4 mbr-fonts-style \" mbr-theme-style=\"display-2\" mbr-text><b>Me conheceu pelos vídeos do Reels e TikTok?</b></h1>\n        <h2 class=\"mbr-semibold pb-5 mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-text mbr-if=\"hasSubtitle\">Aqui estão os links e ferramentas que você viu por lá</h2>\n    </header>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content01-j",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "srQnyT5rN5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".znt-box": {
+              "color": "@textColor",
+              "font-weight": "300",
+              ".znt-img-wrapper": {
+                "position": "relative",
+                "margin": "0",
+                "padding": "0"
+              },
+              ".znt-content-wrapper": {
+                "padding": "0 12px"
+              },
+              "img": {
+                "width": "100%"
+              },
+              ".btn": {
+                "padding": "12px"
+              },
+              ".mbr-iconfont": {}
+            },
+            "H5": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#555555"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Title Color\" name=\"textColor\" value=\"#0a453c\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container znt-content\">\n        <div class=\"row\">\n\n            <div class=\"znt-box col-lg-6\">\n                <div class=\"row g-0\">\n                    <div class=\"col-md-3 znt-img-wrapper\">\n                        <a href=\"https://photopea.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/d57724c24f2133b292e992aa17c38e56-256x256.png\" alt></a>\n                    </div>\n                    <div class=\"col-md-9\">\n                        <div class=\"card-body znt-content-wrapper\">\n                            <h5 class=\"card-title mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-text><a href=\"https://photopea.com\" class=\"text-black text-primary\" target=\"_blank\">Photopea</a></h5>\n                            <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-text>Alternativa sensacional ao Photoshop - idêntica - que funciona totalmente on-line e gratuito</p>\n                            <div mbr-buttons class=\"mbr-section-btn align-left\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-xs btn-black-outline\" href=\"https://www.tiktok.com/@operfildoluiz/video/6940398087433145606?lang=pt-BR&is_copy_url=1&is_from_webapp=v2\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-tiktok mbr-iconfont mbr-iconfont-btn\"></span> Ver no TikTok</a> <a class=\"btn btn-xs btn-black-outline\" href=\"https://www.instagram.com/p/CMf9I-Wh9oA/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-instagram mbr-iconfont mbr-iconfont-btn\"></span> Ver no Reels</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"znt-box col-lg-6\">\n                <div class=\"row g-0\">\n                    <div class=\"col-md-3 znt-img-wrapper\">\n                        <a href=\"https://meet.jit.si\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/256x256bb-256x256.jpg\" alt></a>\n                    </div>\n                    <div class=\"col-md-9\">\n                        <div class=\"card-body znt-content-wrapper\">\n                            <h5 class=\"card-title mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-text><a href=\"https://meet.jit.si\" class=\"text-black\" target=\"_blank\">Jitsi Meeting</a></h5>\n                            <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-text>Aplicativo web pra comunicação virtual. Oferece mais recursos que o Zoom, Meet e Skype</p>\n                            <div mbr-buttons class=\"mbr-section-btn align-left\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-tiktok mbr-iconfont mbr-iconfont-btn\"></span> Ver no TikTok</a> <a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-instagram mbr-iconfont mbr-iconfont-btn\"></span> Ver no Reels</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content01-k",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "srQoJuUTny",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".znt-box": {
+              "color": "@textColor",
+              "font-weight": "300",
+              ".znt-img-wrapper": {
+                "position": "relative",
+                "margin": "0",
+                "padding": "0"
+              },
+              ".znt-content-wrapper": {
+                "padding": "0 12px"
+              },
+              "img": {
+                "width": "100%"
+              },
+              ".btn": {
+                "padding": "12px"
+              },
+              ".mbr-iconfont": {}
+            },
+            "H5": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#555555"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Title Color\" name=\"textColor\" value=\"#0a453c\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container znt-content\">\n        <div class=\"row\">\n\n            <div class=\"znt-box col-lg-6\">\n                <div class=\"row g-0\">\n                    <div class=\"col-md-3 znt-img-wrapper\">\n                        <a href=\"https://excalidraw.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/59452120-280x280.png\" alt></a>\n                    </div>\n                    <div class=\"col-md-9\">\n                        <div class=\"card-body znt-content-wrapper\">\n                            <h5 class=\"card-title mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-text><a href=\"https://excalidraw.com/\" class=\"text-black text-primary\" target=\"_blank\">Excalidraw</a></h5>\n                            <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-text>Um quadro branco cheio de recursos legais pra tirar a ideia do papel e dar vida a ela</p>\n                            <div mbr-buttons class=\"mbr-section-btn align-left\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-tiktok mbr-iconfont mbr-iconfont-btn\"></span> Ver no TikTok</a> <a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-instagram mbr-iconfont mbr-iconfont-btn\"></span> Ver no Reels</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"znt-box col-lg-6\">\n                <div class=\"row g-0\">\n                    <div class=\"col-md-3 znt-img-wrapper\">\n                        <a href=\"https://www.namecheckr.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/icon-192x192.png\" alt></a>\n                    </div>\n                    <div class=\"col-md-9\">\n                        <div class=\"card-body znt-content-wrapper\">\n                            <h5 class=\"card-title mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-text><a href=\"https://www.namecheckr.com/\" class=\"text-black text-primary\" target=\"_blank\">Namecheckr</a></h5>\n                            <p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-text>Descubra se um nome de usuário está disponível nnas redes sociais</p>\n                            <div mbr-buttons class=\"mbr-section-btn align-left\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-tiktok mbr-iconfont mbr-iconfont-btn\"></span> Ver no TikTok</a> <a class=\"btn btn-xs btn-black-outline\" href=\"#\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-instagram mbr-iconfont mbr-iconfont-btn\"></span> Ver no Reels</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content01-l",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "srT0evv3n2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".znt-alert": {
+              "color": "@textColor",
+              "background-color": "@bgColor",
+              "padding": "20px",
+              "border-radius": "8px",
+              "word-wrap": "break-word",
+              "line-height": "28px"
+            },
+            "H1": {
+              "text-align": "left"
+            },
+            "P": {
+              "color": "#444444"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Text Color\" name=\"textColor\" value=\"#444444\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fff1b4\">\n        <input type=\"checkbox\" title=\"Icon\" name=\"hasIcon\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <p class=\"container znt-alert mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text><b>Dica: </b><a href=\"https://www.instagram.com/operfildoluiz/\" class=\"text-secondary text-primary\" target=\"_blank\">Essa lista é atualizada quase todo dia! Me siga nas redes sociais para conhecer ferramentas e hacks legais&nbsp;</a><br></p>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "znt-alert",
+          "_isUserblock": true,
+          "_sourceTheme": "financem4",
+          "_cid": "souAya1hlg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
